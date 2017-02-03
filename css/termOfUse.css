@@ -1,0 +1,39 @@
+.top-read{
+  width: 80%;
+  height: auto;
+  margin: 10px auto;
+  padding: 10px;
+  color: #676A6B;
+  background: white;
+  border-radius: 15px;
+  display: block;
+}
+
+.top-read p{
+  color: #198AB0;
+  font-size: 30px;
+  text-align: center;
+  direction: rtl;
+  margin: 15px auto;
+}
+
+.top-read h2{
+  color: red;
+  font-size: 20px;
+  direction: rtl;
+}
+
+.inside-text{
+  color: #676A6B;
+  display: block;
+  background: #D2D7D9;
+  direction: rtl;
+}
+
+.inside-text-statistic{
+  color: #676A6B;
+  font-weight: bold;
+  display: block;
+  background: #D2D7D9;
+  direction: ltr;
+}

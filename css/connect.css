@@ -1,0 +1,265 @@
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+
+
+/*******************
+BODY STYLING
+*******************/
+
+
+
+/* Download Button (Demo Only) */
+.download {
+    display: block;
+    position: absolute;
+    float: right;
+    right: 25px;
+    bottom: 25px;
+    padding: 5px;
+
+    font-weight: bold;
+    font-size: 11px;
+    text-align: right;
+    text-decoration: none;
+    color: rgba(0,0,0,0.5);
+    text-shadow: 1px 1px 0 rgba(256,256,256,0.5);
+}
+
+.download:hover {
+    color: rgba(0,0,0,0.75);
+    text-shadow: 1px 1px 0 rgba(256,256,256,0.5);
+}
+
+.download:focus {
+    bottom: 24px;
+}
+
+/*
+.gradient {
+    width: 600px;
+    height: 600px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -300px;
+    margin-top: -300px;
+
+    background: url(http://www.demo.amitjakhu.com/login-form/images/gradient.png) no-repeat;
+}
+*/
+
+.gradient {
+    /* Center Positioning */
+    width: 600px;
+    height: 600px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -300px;
+    margin-top: -300px;
+    z-index: -2;
+
+    /* Fallback */
+    background-image: url(http://www.demo.amitjakhu.com/login-form/images/gradient.png);
+    background-repeat: no-repeat;
+
+    /* CSS3 Gradient */
+    background-image: -webkit-gradient(radial, 0% 0%, 0% 100%, from(rgba(213,246,255,1)), to(rgba(213,246,255,0)));
+    background-image: -webkit-radial-gradient(50% 50%, 40% 40%, rgba(213,246,255,1), rgba(213,246,255,0));
+    background-image: -moz-radial-gradient(50% 50%, 50% 50%, rgba(213,246,255,1), rgba(213,246,255,0));
+    background-image: -ms-radial-gradient(50% 50%, 50% 50%, rgba(213,246,255,1), rgba(213,246,255,0));
+    background-image: -o-radial-gradient(50% 50%, 50% 50%, rgba(213,246,255,1), rgba(213,246,255,0));
+}
+
+/*******************
+LOGIN FORM
+*******************/
+@baseFont: 15px "Helvetica Neue";
+@base: #2a3644;
+@blue: #2296cf;
+@gray: #eee;
+@mint: #20b9a4;
+@oran: #e2764a;
+@norm: #ffffff;
+@dark: #111;
+@link: rgba(0, 0, 0, .1);
+@grayer: #bbbbbb;
+@form: #eef0f3;
+@place: #cdcdcd;
+@twitter: #00aced;
+@google: #dd4b39;
+@or: #e4e4e4;
+
+.login-form > h1 {
+  font-size: 30px;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #28d;
+  margin-bottom:20px;
+  direction: rtl;
+}
+
+.login-form {
+  text-align: center;
+  margin: 50px auto;
+  width: 500px;
+  background: #ffffff;
+  padding: 40px;
+  .rounded;
+  border-radius: 15px;
+}
+
+.login-form p{
+  margin: 10px;
+}
+
+.login-form p a{
+  margin: 10px;
+  text-decoration: none;
+  color: red;
+}
+
+.login-form p a:hover{
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+.login-form > input {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 20px;
+  .rounded;
+  border: 1px solid silver;
+  background: white;
+  margin-bottom: 10px;
+  .trans;
+  &:focus {
+    outline: 0;
+    .trans;
+    background: #f4f4f4;
+    color: #111;
+  }
+}
+
+.login-form > button {
+  width: 100%;
+  border: 0;
+  margin-top: 10px;
+  .rounded;
+  .trans;
+  background:  #28d;
+  padding: 15px;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  font-weight: 300;
+  &:hover {
+    .trans;
+    opacity: 0.9;
+  }
+}
+
+.login-form > h3 {
+  position: relative;
+  background: #e4e4e4;
+  z-index: 3;
+  margin: 30px auto;
+  width: 40px;
+  height: 40px;
+  text-transform: uppercase;
+  color: black;
+  padding-top: 11px;
+  font-weight: 200;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  border-radius: 100px;
+  &:before,
+  &:after {
+    position: absolute;
+    width: 200px;
+    top: 19px;
+    height: 4px;
+    background: #e4e4e4;
+    content: "";
+    z-index: 0;
+  }
+  &:before {
+    left: -190px;
+  }
+}
+
+.login-form :after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+::-webkit-input-placeholder {
+  color: #cdcdcd;
+}
+
+::-moz-placeholder {
+  color: #cdcdcd;
+}
+
+/**********Connect us***************/
+.connect {
+    margin: 30px auto;
+    text-align: center;
+    width: 50%;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.connect h1 {
+    display: block;
+    text-shadow: -7px 1px 6px rgba(119, 179, 207, 0.98);
+    font-size: 40px;
+    font-family: serif;
+    color: #1E668A;
+    direction: rtl;
+    text-align: center;
+}
+
+.connect input[type="text"],
+.connect input[type="email"] {
+    direction: rtl;
+    color: #135475;
+    font-size: 18px;
+    background: white;
+    width: 400px;
+    margin: 15px auto;
+    height: 70px;
+    display: block;
+}
+
+.connect textarea {
+    direction: rtl;
+    color: #135475;
+    font-size: 18px;
+    background: white;
+    width: 600px;
+    margin: 15px auto;
+    height: 100px;
+    display: block;
+}
+
+.connect button {
+    margin: 10px auto;
+    background: #4e83b2;
+    background: -webkit-linear-gradient(#4e83b2, #146ec1);
+    background: linear-gradient(#4e83b2, #146ec1);
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    padding: 12px 44px;
+    font: normal 700 24px/1 "Open Sans", sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000;
+    display: block;
+}

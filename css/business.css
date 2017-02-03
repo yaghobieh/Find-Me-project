@@ -1,0 +1,308 @@
+/********************/
+
+
+/**reg page front***/
+
+
+/********************/
+
+.buss {
+    border-radius: 15px;
+    max-width: 500px;
+    height: auto;
+    background: white;
+    margin: 0px auto;
+}
+
+.buss h1 {
+    font-family: cursive;
+    color: #165A70;
+    margin: 0px auto;
+}
+
+.buss .lined.thin {
+    align-self: center;
+    background: transparent;
+    padding: 1rem 1rem;
+    margin: 0 1rem;
+    transition: all .5s ease;
+    color: #41403E;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    outline: none;
+    box-shadow: 20px 38px 34px -26px hsla(0, 0%, 0%, .2);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border: solid 2px #41403E;
+}
+
+
+/********************/
+
+
+/**reg page***/
+
+
+/********************/
+
+.regbuss {
+    margin: 1px auto;
+    border-radius: 15px;
+    max-width: 800px;
+    height: auto;
+    background: #E1E8EB;
+    color: #6255F2;
+    text-align: center;
+    padding: 10px;
+}
+
+.betweenlines {
+    display: block;
+    color: #2C809C;
+    font-size: 22px;
+}
+
+.regbuss .lined {
+    align-self: center;
+    background: transparent;
+    padding: 1rem 1rem;
+    margin: 0 1rem;
+    transition: all .5s ease;
+    color: #41403E;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    outline: none;
+    box-shadow: 20px 38px 34px -26px hsla(0, 0%, 0%, .2);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border: solid 2px #41403E;
+}
+
+
+/******************/
+
+
+/****Stores.php***/
+
+
+/*****************/
+
+.storeTopTitle {
+    text-align: center;
+    margin: 0px auto;
+    background: white;
+    border: 1px solid silver;
+    border-radius: 15px;
+    width: 70%;
+    height: auto;
+}
+
+.storeTopTitle>h1 {
+    direction: rtl;
+    font-size: 20px;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+.storeTopTitle>input {
+    width: 40%;
+    color: #2E6D82;
+    font-size: 16px;
+    font-family: monospace;
+    margin: 5px;
+    background: white;
+}
+
+.optionsIn {
+    display: inline-block;
+    width: 60%;
+    background: #E6E6F0;
+    border-radius: 7px;
+}
+
+#insideBoxs {
+    display: inline-block;
+    width: 40%;
+    color: #272A7A;
+    font-size: 16px;
+    font-family: monospace;
+    margin: 5px;
+}
+
+.insideItemTitle {
+    color: blue;
+    size: 15px;
+    font-family: cursive;
+    display: inline-block;
+}
+
+/***************************/
+
+
+/****item>storesInfo.php***/
+
+
+/*************************/
+
+.stores_block {
+    direction: rtl;
+    display: block;
+    width: 90%;
+}
+
+.store_inline {
+    display: block;
+    width: 80%;
+    height: 180px;
+    border-radius: 15px;
+    background: white;
+    text-align: right;
+    margin: 10px;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+}
+
+.store_inline_sidePic {
+    width: 20%;
+    display: inline-block;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.store_inline_sidePic img {
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+	padding-right: 16px;
+}
+
+.store_inline_other {
+    display: inline-block;
+    width: 32em;
+    vertical-align: top;
+}
+
+.store_inline_other p {
+    display: block;
+    color: #1986D3;
+    font-family: inherit;
+    font-size: 25px;
+}
+
+.store_inline_other span{
+  color: #E0B348;
+  font-size: 30px;
+}
+
+.store_inline_other p>a {
+    text-decoration: none;
+    color: #4272F5;
+}
+
+.side-block{
+  display: inline-block;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/******************/
+
+
+/****myStore.php***/
+
+
+/*****************/
+
+.my-store {
+    display: block;
+    width: 80%;
+    background: white;
+    border-radius: 15px;
+    margin: 5px auto;
+    direction: rtl;
+}
+
+.logo-init {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+
+.logo-init img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50px;
+    margin-bottom: 40px;
+}
+
+.info-store {
+    display: inline-block;
+    padding: 10px;
+    color: silver;
+    margin: 20px;
+    width: 20em;
+}
+
+.info-store-map{
+  display: inline-block;
+  padding: 10px;
+  color: silver;
+  margin: 20px;
+  width: 400px;
+  height: 300px;
+}
+
+.title-store {
+    display: block;
+    color: #1B8FB5;
+    font-family: monospace;
+    font-size: 25px;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.info-store span {
+    display: inline-block;
+    color: #5C6263;
+    font-size: 17px;
+}
+
+/**********Toggles**********/
+
+.info-topfive{
+  width: 80%;
+  display: block;
+  margin: 10px auto;
+  border-top: 3px double silver;
+  background: white;
+  border-radius: 15px;
+}
+
+#plus-info, #plus-info-tabs {
+  text-decoration: none;
+  background: white;
+  border: 1px solid silver;
+  font-size: 18px;
+}
+
+.inside{
+  text-align: right;
+  direction: rtl;
+  display: inline-block;
+  border-radius: 15px;
+  background: #CFCFCF;
+  overflow-x: auto;
+  margin: 10px;
+  padding: 15px;
+}
+
+.inside p{
+  background: #929596;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  direction: rtl;
+  margin: 10px;
+}
+
+.inside li{
+  margin: 5px;
+}

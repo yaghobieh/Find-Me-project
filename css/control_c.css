@@ -1,0 +1,402 @@
+.control_panle_Style {
+    width: 90%;
+    margin: 5px auto;
+    padding: 30px;
+    display: block;
+    color: #165A70;
+    direction: rtl;
+}
+
+.control_panle_Style iframe {
+    width: 100%;
+    border: 0px;
+    background: silver;
+    margin: 0px auto;
+}
+
+.control_panle_Style h1 {
+    font-family: cursive;
+    font-size: 25px;
+    color: #F0374D;
+    margin: 5px auto;
+    text-align: center;
+}
+
+.control_panle_Style p {
+    background: white;
+    color: #F0374D;
+    font-family: cursive;
+    border-bottom: 1px solid silver;
+    border-top: 1px solid silver;
+    padding: 5px;
+    margin: 10px;
+}
+
+.control_panle_Style img {
+    width: 26px;
+    height: 26px;
+}
+
+.control_panle_Style a {
+    text-decoration: none;
+    color: black;
+}
+
+.control_panle_Style_right {
+    padding: 10px;
+    font-size: 21px;
+    text-align: right;
+    width: 20%;
+    background: white;
+    border-radius: 15px;
+    float: right;
+    display: inline-block;
+    color: black;
+    font-family: monospace;
+}
+
+.control_panle_Style_center {
+    padding: 5px;
+    text-align: right;
+    display: inline-block;
+    background: white;
+    border-radius: 15px;
+    width: 80%;
+    height: 500px;
+}
+
+
+/***************************/
+
+
+/*********RESPONSE**********/
+
+
+/***************************/
+
+.responseBy {
+    direction: rtl;
+    display: block;
+    background: white;
+    border-radius: 15px;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    width: 80%;
+    margin: 10px auto;
+
+}
+
+.responseBy img {
+    width: 200px;
+    height: 70px;
+}
+
+.responseByInside {
+    padding: 10px;
+    display: inline-block;
+    border-left: 1px solid silver;
+    color: black;
+    font-size: 15px;
+}
+
+.responseByInside a {
+    text-decoration: none;
+    color: black;
+}
+
+.responseByInside img {
+    width: 150px;
+    height: 35px;
+}
+
+.profileInfo {
+    display: block;
+    height: auto;
+    padding-bottom: 10%;
+}
+
+.logoLittle {
+    display: inline-block;
+}
+
+.logoLittle img {
+    height: 90px;
+    width: 90px;
+    padding: 8px;
+}
+
+.infoWritter {
+    display: inline-block;
+    color: silver;
+    vertical-align: top;
+}
+
+.responseByInsideCenter {
+    align-items: center;
+    display: inline-block;
+    color: black;
+    color: #6D6D70;
+    font-size: 20px;
+    vertical-align: top;
+    overflow-wrap: break-word;
+}
+
+#alignIn-responseByInsideCenter{
+  width: 38em;
+  background: white;
+}
+
+.responseByInsideCenter p {
+    width: 13em;
+    background: gold;
+}
+
+.likes {
+    margin: 10px auto;
+}
+
+.likes span {
+    font-size: 30px;
+    display: inline-block;
+    color: gray;
+}
+
+.like {
+    display: inline-block;
+}
+
+.like button {
+    font-size: 25px;
+    color: green;
+    display: inline-block;
+    background: white;
+}
+
+.unlike {
+    display: inline-block;
+}
+
+.unlike button {
+    font-size: 25px;
+    color: red;
+    display: inline-block;
+    background: white;
+}
+
+.likes input [type="submit"] {
+    background: black;
+    background-image: url(images/ui-icons_3d3d3d_256x240.png);
+}
+
+.responseByInsideCenter p {
+    color: black;
+    font-size: 19px;
+    font-family: bold monospace;
+}
+
+.responseByInsideCenter input[type="text"] {
+    color: #352E7D;
+    font-size: 20px;
+    border: 1px solid silver;
+    height: 30px;
+    width: 300px;
+    display: block;
+    margin: 10px;
+}
+
+.responseByInsideCenter textarea {
+    color: #352E7D;
+    font-size: 20px;
+    border: 1px solid silver;
+    height: 80px;
+    width: 300px;
+    display: block;
+    margin: 10px;
+}
+
+.responseByInsideFoot {
+    display: block;
+    width: 99%;
+    margin: 5px;
+    float: inherit;
+    border-top: 1px solid black;
+}
+
+.responseByInsideFoot form {
+    display: inline-block;
+}
+
+.responseByInsideFoot input {
+    background: #352E7D;
+    color: white;
+    font-size: 21px;
+    border: 0px;
+    font-family: serif;
+}
+
+
+/***************************/
+
+
+/*************TABS**********/
+
+
+/***************************/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+.tabs {
+    width: 90%;
+    list-style: none;
+    padding: 0;
+    margin: 50px auto;
+}
+
+.tabs li {
+    display: block;
+}
+
+.labels:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.tabs label {
+    display: inline-block;
+    float: left;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: normal;
+    background: #D5E61C;
+    cursor: pointer;
+}
+
+.tabs label:hover {
+    background: #3498db;
+}
+
+.tab-content {
+    display: none;
+    width: 100%;
+    padding: 15px;
+    height: 1000px;
+    border: 1px solid #ccc;
+    border-top: 10px solid #08C;
+    background-color: #ffffff;
+}
+
+.tabs input[type=radio] {
+    display: none;
+}
+
+[id^=tab]:checked~div[id^=tab-content] {
+    display: block;
+}
+
+[id^=tab]:checked~[id^=label] {
+    background: #08C;
+    color: white;
+}
+
+
+/****************Open Menu********/
+
+#top-menu-controller {
+    display: inline-block;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+#top-menu-controller>ul {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+#top-menu-controller>ul>li {
+    /* will style only the top level li */
+    list-style: none;
+    display: inline-block;
+    line-height: 1;
+    margin: 1px;
+    border-radius: 3px;
+    position: relative;
+}
+
+#top-menu-controller>ul>li>a {
+    color: inherit;
+    text-decoration: none !important;
+    font-size: 24px;
+}
+
+#top-menu-controller li ul {
+    position: absolute;
+    list-style: none;
+    text-align: right;
+    width: 180px;
+    left: 50%;
+    margin-left: -90px;
+    top: 90px;
+    font: bold 12px 'Open Sans Condensed', sans-serif;
+    /* This is important for the show/hide CSS animation */
+    max-height: 0px;
+    overflow: hidden;
+    -webkit-transition: max-height 0.4s linear;
+    -moz-transition: max-height 0.4s linear;
+    transition: max-height 0.5s linear;
+}
+
+#top-menu-controller li ul li {
+    background-color: #313131;
+}
+
+#top-menu-controller li ul li a {
+    padding: 9px;
+    color: #fff !important;
+    text-decoration: none !important;
+    display: block;
+}
+
+#top-menu-controller li ul li:nth-child(odd) {
+    /* zebra stripes */
+    background-color: #363636;
+}
+
+#top-menu-controller li ul li:hover {
+    background-color: #444;
+}
+
+#top-menu-controller li ul li:first-child {
+    border-radius: 3px 3px 0 0;
+    margin-top: 25px;
+    position: relative;
+}
+
+#top-menu-controller li ul li:first-child:before {
+    /* the pointer tip */
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    border: 5px solid transparent;
+    border-bottom-color: #313131;
+    left: 50%;
+    top: -10px;
+    margin-left: -5px;
+}
+
+#top-menu-controller li ul li:last-child {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+
+/* This will trigger the CSS */
+
+
+/* transition animation on hover */
+
+#top-menu-controller li:hover ul {
+    max-height: 500px;
+    /* Increase when adding more dropdown items */
+}
